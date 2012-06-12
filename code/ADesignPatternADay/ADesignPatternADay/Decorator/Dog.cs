@@ -1,8 +1,8 @@
 ﻿namespace ADesignPatternADay.Decorator
 {
-    public class Dog
+    public class Dog : Animal
     {
-        public int Run()
+        public override int Run()
         {
             return 25;
         }

@@ -50,6 +50,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Decorator\Decorators\BionicLegsDecoratorTestFixture.cs" />
+    <Compile Include="Decorator\Decorators\HandicappedDectoratorTestFixture.cs" />
     <Compile Include="Decorator\DogTestFixture.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

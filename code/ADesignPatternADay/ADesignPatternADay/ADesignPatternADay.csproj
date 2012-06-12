@@ -47,6 +47,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Decorator\Animal.cs" />
+    <Compile Include="Decorator\AnimalDecorator.cs" />
+    <Compile Include="Decorator\Decorators\BionicLegsDecorator.cs" />
+    <Compile Include="Decorator\Decorators\HandicappedDecorator.cs" />
     <Compile Include="Decorator\Dog.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
