@@ -2,5 +2,9 @@
 {
     public class Dog
     {
+        public int Run()
+        {
+            return 25;
+        }
     }
 }

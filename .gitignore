@@ -2,5 +2,8 @@
 bin
 obj
 
-# mstest test results
-TestResults
+#Solution user specific files
+*.suo
+
+# Resharper files
+_ReSharper.ADesignPatternADay
