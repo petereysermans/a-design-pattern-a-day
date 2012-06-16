@@ -9,11 +9,11 @@ namespace ADesignPatternADay.Tests.Decorator.Decorators
     {
         Establish context = () =>
         {
-            _clasUnderTest = new HandicappedDecorator(new Dog());
+            _classUnderTest = new HandicappedDecorator(new Dog());
         };
 
         Because of = () =>
-            _measuredSpeed = _clasUnderTest.Run();
+            _measuredSpeed = _classUnderTest.Run();
 
         It should_have_a_third_of_the_speed_of_a_normal_running_dog = () =>
         {
@@ -21,7 +21,7 @@ namespace ADesignPatternADay.Tests.Decorator.Decorators
             _measuredSpeed.ShouldEqual(normalSpeed/3);
         };
 
-        private static HandicappedDecorator _clasUnderTest;
+        private static HandicappedDecorator _classUnderTest;
         private static int _measuredSpeed;
     }
 }

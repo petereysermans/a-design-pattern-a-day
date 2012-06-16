@@ -2,7 +2,8 @@
 {
     public class HandicappedDecorator : AnimalDecorator
     {
-        public HandicappedDecorator(Animal animal) : base(animal)
+        public HandicappedDecorator(Animal animal)
+            : base(animal)
         {
         }
 
