@@ -54,6 +54,7 @@
     <Compile Include="Decorator\Decorators\HandicappedDectoratorTestFixture.cs" />
     <Compile Include="Decorator\DogTestFixture.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Singleton\DirtyHouseTestFixture.cs" />
     <Compile Include="Singleton\GirlfriendTestFixture.cs" />
   </ItemGroup>
   <ItemGroup>
