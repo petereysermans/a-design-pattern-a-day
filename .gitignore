@@ -4,6 +4,7 @@ obj
 
 #Solution user specific files
 *.suo
+*.user
 
 # Resharper files
 _ReSharper.ADesignPatternADay

@@ -4,7 +4,7 @@ using Machine.Specifications;
 namespace ADesignPatternADay.Tests.Singleton
 {
     [Subject("Getting the girlfriend")]
-    public class When_getting_girlfriend
+    public class When_getting_the_girlfriend
     {
         Because of = () =>
             _hashCode = Girlfriend.Instance.GetHashCode();

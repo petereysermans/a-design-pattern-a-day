@@ -2,17 +2,17 @@
 {
     public class Girlfriend
     {
-        private static Girlfriend _instance;
+        private static readonly Girlfriend _instance = new Girlfriend();
+
+        private Girlfriend()
+        {
+            
+        }
 
         public static Girlfriend Instance
         {
             get
             {
-                if(_instance == null)
-                {
-                    _instance = new Girlfriend();
-                }
-
                 return _instance;
             }
         }
