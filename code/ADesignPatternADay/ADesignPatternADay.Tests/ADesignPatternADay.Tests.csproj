@@ -57,6 +57,7 @@
     <Compile Include="Singleton\DirtyHouseTestFixture.cs" />
     <Compile Include="Singleton\GirlfriendTestFixture.cs" />
     <Compile Include="Singleton\NiceMealForHungryGuyTestFixture.cs" />
+    <Compile Include="Specification\MinorSpecificationTestFixture.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ADesignPatternADay\ADesignPatternADay.csproj">
@@ -67,6 +68,7 @@
   <ItemGroup>
     <None Include="app.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

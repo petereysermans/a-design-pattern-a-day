@@ -7,7 +7,7 @@ namespace ADesignPatternADay.Tests.Singleton
     public class When_getting_the_person_that_cooks_the_nice_meal_for_the_hungry_guy
     {
         Establish context = () =>
-            _niceMeal = new NiceMealForHungryPerson();
+            _niceMeal = new NiceMealForHungryGuy();
 
         Because of = () =>
             {
@@ -18,7 +18,7 @@ namespace ADesignPatternADay.Tests.Singleton
         It should_return_the_same_person_as_our_girlfriend = () =>
             _girlFriend.GetHashCode().ShouldEqual(_cook.GetHashCode());
 
-        private static NiceMealForHungryPerson _niceMeal;
+        private static NiceMealForHungryGuy _niceMeal;
         private static Girlfriend _girlFriend;
         private static Girlfriend _cook;
     }

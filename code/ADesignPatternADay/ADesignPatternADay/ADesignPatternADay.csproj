@@ -55,7 +55,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Singleton\DirtyHouse.cs" />
     <Compile Include="Singleton\Girlfriend.cs" />
-    <Compile Include="Singleton\NiceMealForHungryPerson.cs" />
+    <Compile Include="Singleton\NiceMealForHungryGuy.cs" />
+    <Compile Include="Specification\Interfaces\ISpecification.cs" />
+    <Compile Include="Specification\MinorSpecification.cs" />
+    <Compile Include="Specification\Person.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
